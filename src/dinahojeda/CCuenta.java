@@ -7,11 +7,13 @@ package dam_ed04_actividad;
 
 
 public class CCuenta {
-
+/**@param getcuenta to set
+ * @return setSaldo
+ */
     /**
      * @return the cuenta
      */
-    public String getCuenta() {
+    public String getCuenta1() {
         return cuenta;
     }
 
@@ -90,7 +92,7 @@ public class CCuenta {
 
     public String obtenerCuenta()
     {
-        return getCuenta();
+        return getCuenta1();
     }
 
 
